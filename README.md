@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Cine-Mate
+## Description
+Cinemate is a movie database website created with ReactJS as the front-end and NodeJS backend with Express server and MongoDB . Movie details are fetched from OMdb API . 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Users can create and account and login to the website and search for any movie they like.
 
-## Available Scripts
+We can also add or remove any movie to the watchlist.
 
-In the project directory, you can run:
+Cine-Mate is also responsive and users can access it on their mobile phone too.
 
-### `npm start`
+App deployed at https://cine-mate.herokuapp.com
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Screenshots
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/75844793/126636637-de2063e7-56fa-4668-b0b4-cb890067b73e.png)
 
-### `npm test`
+![image](https://user-images.githubusercontent.com/75844793/126635399-814dbe06-64a4-482f-96cb-b56ed481e342.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/75844793/126635635-d9a5b18d-ea4f-4a74-bb6c-a61dc89405ee.png)
 
-### `npm run build`
+![image](https://user-images.githubusercontent.com/75844793/126636410-4f723362-9559-45e8-996f-ba6853382d94.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/75844793/126636489-8ef5186c-da6c-441e-b903-3a3ba8102385.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://user-images.githubusercontent.com/75844793/126636518-8b2631a3-3f2a-47c3-84a5-e2c10a0d44d5.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
