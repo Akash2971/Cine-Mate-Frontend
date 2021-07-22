@@ -1,0 +1,93 @@
+/* body {
+  background-color: #d2a813;
+  background-image: linear-gradient(315deg, #d2a813 0%, #000000 74%);
+} */
+.watch-container {
+  padding-bottom: 20px;
+  height: 100%;
+  text-align: center;
+}
+.watch-container h1 {
+  font-weight: normal;
+  font-family: "Merienda One", cursive;
+  color: rgb(240, 230, 94);
+  font-size: 4.5rem;
+  width: 70%;
+  margin: auto;
+  border-bottom: solid 2px rgb(240, 230, 94);
+}
+.watch-list {
+  margin: 3vh;
+  padding: 1vh 1vw;
+  display: grid;
+  grid-gap: 3vw;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.watch-poster-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(52, 51, 51);
+  width: 100%;
+  height: 90%;
+}
+.watch-poster {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.watch-heart-icon {
+  position: relative;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 0px;
+}
+.fa-heart-broken {
+  z-index: 1000;
+  cursor: pointer;
+  color: rgb(255, 0, 0);
+  font-size: 1.25rem;
+}
+.fa-heart-broken:hover {
+  color: rgb(174, 0, 255);
+}
+
+.watch-title {
+  /* position: relative;
+    bottom: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  background-color: rgb(240, 230, 94);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.watchlist-movie {
+  cursor: pointer;
+  background-color: grey;
+  border-radius: 15px;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: flex;
+  z-index: 2;
+  flex-direction: column;
+  min-height: 530px;
+}
+
+@media only screen and (max-width: 768px) {
+  .watch-list {
+    margin: 5% 0% 5% 0%;
+    padding: 3vh 10vw;
+    grid-template-columns: 100%;
+    grid-gap: 5vh;
+    grid-auto-rows: minmax(100px, auto);
+  }
+}

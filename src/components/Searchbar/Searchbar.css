@@ -1,0 +1,31 @@
+.wrap {
+  display: inline-block;
+  width: 50%;
+}
+.search {
+  display: flex;
+  justify-content: center;
+}
+.searchTerm {
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+  outline: none;
+  width: 80%;
+  height: 30px;
+  padding-left: 1.5vw;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right: none;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+.searchButton {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(95, 236, 117);
+  border: none;
+  cursor: pointer;
+}
